@@ -16,6 +16,7 @@ environment:
 install:
     - git clone https://github.com/ctuning/ck C:\projects\ck
     - set Path=%PATH%;C:\projects\ck\bin
+    - ck version
     - "%PYTHON%\\Scripts\\pip.exe install pyyaml"
 
 build: false
