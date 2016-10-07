@@ -14,7 +14,7 @@ environment:
     - PYTHON: "C:\\Python35-x64"
 
 install:
-    - git clone https:\\github.com\\ctuning\\ck	 C:\projects\ck
+    - git clone https://github.com/ctuning/ck C:\projects\ck
     - set Path=%PATH%;C:\projects\ck\bin
     - "%PYTHON%\\Scripts\\pip.exe install pyyaml"
 
