@@ -18,6 +18,7 @@ install:
     - set Path=%PATH%;C:\projects\ck\bin
     - ck version
     - cd C:\projects\ck-autotuning
+    - "%PYTHON%\\Scripts\\pip.exe install pyyaml"
 
 build: false
 
